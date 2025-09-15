@@ -1,0 +1,24 @@
+data_file: "data/CLST_15k.jsonl"      
+is_think_train: true               
+is_drop: true
+
+model_name_or_path: ""                   
+ds_config_path: "conf/ds_zero3.json"
+
+
+train_batch_size: 1
+epochs: 1
+lr: 1e-6
+max_prompt_length: 512
+max_completion_length: 256
+gradient_accumulation_steps: 1
+
+num_generations: 4                                  
+beta: 0.04                                         
+think_max_len: 100
+think: true
+
+
+out_dir: "../grpo_checkpoint"                     
+name: "CLST_15k"                        
+                                   

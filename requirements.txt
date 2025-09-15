@@ -1,0 +1,7 @@
+trl
+deepspeed
+math_verify
+tensorboard
+tabulate
+ms_swift==3.6.4
+transformers==4.52.4
